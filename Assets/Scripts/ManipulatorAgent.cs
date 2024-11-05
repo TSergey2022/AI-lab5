@@ -13,6 +13,7 @@ public class ManipulatorAgent : Agent
     // Настройки области спауна цели для обучения
     public Vector3 targetSpawnCenter = new Vector3(0, 1.7f, 0);
     public Vector3 targetSpawnScale = new Vector3(2f, 1.5f, 2f);
+    public float targetCenterOffset = 0;
     public bool drawTargetGizmos = false;
     private JointController[] joints;
     public override void Initialize()
@@ -49,6 +50,10 @@ public class ManipulatorAgent : Agent
         var point = Random.insideUnitSphere;
         point.Scale(targetSpawnScale);
         point += targetSpawnCenter;
+        var vec2 = new Vector2(point.x, point.z);
+        if  (vec2.magnitude < targetCenterOffset) {
+            return randomTargetPosititon();
+        }
         return transform.position + point;
     }
     public void OnDrawGizmosSelected()
