@@ -82,13 +82,14 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 5000
+  MaxStep: 200
   head: {fileID: 4190831965037411789}
   target: {fileID: 0}
   targetSpawnCenter: {x: 0, y: 1.7, z: 0}
   targetSpawnScale: {x: 2, y: 1.5, z: 2}
   targetCenterOffset: 0.5
   drawTargetGizmos: 0
+  targetReachThreshold: 0.4
 --- !u!114 &51762433101028089
 MonoBehaviour:
   m_ObjectHideFlags: 0

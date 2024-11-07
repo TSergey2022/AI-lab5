@@ -1,0 +1,920 @@
+{
+    "Manipulator": {
+        "checkpoints": [
+            {
+                "steps": 19976,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-19976.onnx",
+                "reward": -10.427192203815167,
+                "creation_time": 1731010437.8079488,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-19976.pt"
+                ]
+            },
+            {
+                "steps": 29964,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-29964.onnx",
+                "reward": -8.70237553622074,
+                "creation_time": 1731010451.6433098,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-29964.pt"
+                ]
+            },
+            {
+                "steps": 39960,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-39960.onnx",
+                "reward": 0.2901109259066986,
+                "creation_time": 1731010466.4310534,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-39960.pt"
+                ]
+            },
+            {
+                "steps": 49997,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-49997.onnx",
+                "reward": 5.608172242359449,
+                "creation_time": 1731010480.1711054,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-49997.pt"
+                ]
+            },
+            {
+                "steps": 59964,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-59964.onnx",
+                "reward": 0.8356645379999027,
+                "creation_time": 1731010494.4058847,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-59964.pt"
+                ]
+            },
+            {
+                "steps": 69996,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-69996.onnx",
+                "reward": 13.959758765121986,
+                "creation_time": 1731010508.471626,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-69996.pt"
+                ]
+            },
+            {
+                "steps": 79999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-79999.onnx",
+                "reward": 19.806946914468035,
+                "creation_time": 1731010523.1196685,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-79999.pt"
+                ]
+            },
+            {
+                "steps": 89984,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-89984.onnx",
+                "reward": 32.03285547009778,
+                "creation_time": 1731010538.3933935,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-89984.pt"
+                ]
+            },
+            {
+                "steps": 99961,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-99961.onnx",
+                "reward": 28.346877539427922,
+                "creation_time": 1731010553.7519689,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-99961.pt"
+                ]
+            },
+            {
+                "steps": 109988,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-109988.onnx",
+                "reward": 32.80328096576294,
+                "creation_time": 1731010568.6661391,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-109988.pt"
+                ]
+            },
+            {
+                "steps": 119981,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-119981.onnx",
+                "reward": 42.1860933303833,
+                "creation_time": 1731010584.0711715,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-119981.pt"
+                ]
+            },
+            {
+                "steps": 129962,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-129962.onnx",
+                "reward": 52.5364370211749,
+                "creation_time": 1731010598.7482479,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-129962.pt"
+                ]
+            },
+            {
+                "steps": 139975,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-139975.onnx",
+                "reward": 56.50219821667933,
+                "creation_time": 1731010613.5716782,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-139975.pt"
+                ]
+            },
+            {
+                "steps": 149994,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-149994.onnx",
+                "reward": 63.37154896303112,
+                "creation_time": 1731010629.5585456,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-149994.pt"
+                ]
+            },
+            {
+                "steps": 159972,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-159972.onnx",
+                "reward": 70.93473865385364,
+                "creation_time": 1731010645.225215,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-159972.pt"
+                ]
+            },
+            {
+                "steps": 169998,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-169998.onnx",
+                "reward": 76.57498851347198,
+                "creation_time": 1731010660.9433355,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-169998.pt"
+                ]
+            },
+            {
+                "steps": 179972,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-179972.onnx",
+                "reward": 74.22861895992587,
+                "creation_time": 1731010675.5120902,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-179972.pt"
+                ]
+            },
+            {
+                "steps": 189986,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-189986.onnx",
+                "reward": 88.99453399186538,
+                "creation_time": 1731010690.9095314,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-189986.pt"
+                ]
+            },
+            {
+                "steps": 199961,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-199961.onnx",
+                "reward": 85.17938117508416,
+                "creation_time": 1731010707.444298,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-199961.pt"
+                ]
+            },
+            {
+                "steps": 209997,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-209997.onnx",
+                "reward": 94.15634920785041,
+                "creation_time": 1731010723.1404762,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-209997.pt"
+                ]
+            },
+            {
+                "steps": 219997,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-219997.onnx",
+                "reward": 101.209883963946,
+                "creation_time": 1731010738.8939354,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-219997.pt"
+                ]
+            },
+            {
+                "steps": 229960,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-229960.onnx",
+                "reward": 110.90153181869371,
+                "creation_time": 1731010755.4153786,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-229960.pt"
+                ]
+            },
+            {
+                "steps": 239995,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-239995.onnx",
+                "reward": 112.4136029564672,
+                "creation_time": 1731010772.3171048,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-239995.pt"
+                ]
+            },
+            {
+                "steps": 249997,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-249997.onnx",
+                "reward": 114.2385040627045,
+                "creation_time": 1731010790.2517722,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-249997.pt"
+                ]
+            },
+            {
+                "steps": 259978,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-259978.onnx",
+                "reward": 122.96194672364454,
+                "creation_time": 1731010808.0984712,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-259978.pt"
+                ]
+            },
+            {
+                "steps": 269985,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-269985.onnx",
+                "reward": 116.32881312545726,
+                "creation_time": 1731010827.2452345,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-269985.pt"
+                ]
+            },
+            {
+                "steps": 279984,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-279984.onnx",
+                "reward": 122.59998492808357,
+                "creation_time": 1731010844.3472593,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-279984.pt"
+                ]
+            },
+            {
+                "steps": 289989,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-289989.onnx",
+                "reward": 130.27796965761817,
+                "creation_time": 1731010863.175176,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-289989.pt"
+                ]
+            },
+            {
+                "steps": 299964,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-299964.onnx",
+                "reward": 131.46422068853565,
+                "creation_time": 1731010880.829505,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-299964.pt"
+                ]
+            },
+            {
+                "steps": 309963,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-309963.onnx",
+                "reward": 135.46048025264062,
+                "creation_time": 1731010899.0845106,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-309963.pt"
+                ]
+            },
+            {
+                "steps": 319982,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-319982.onnx",
+                "reward": 140.45698108881675,
+                "creation_time": 1731010917.0989385,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-319982.pt"
+                ]
+            },
+            {
+                "steps": 329977,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-329977.onnx",
+                "reward": 144.92920614236058,
+                "creation_time": 1731010936.0729399,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-329977.pt"
+                ]
+            },
+            {
+                "steps": 339990,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-339990.onnx",
+                "reward": 146.9798694742065,
+                "creation_time": 1731010955.078804,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-339990.pt"
+                ]
+            },
+            {
+                "steps": 349994,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-349994.onnx",
+                "reward": 152.0254878770286,
+                "creation_time": 1731010974.4621696,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-349994.pt"
+                ]
+            },
+            {
+                "steps": 359996,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-359996.onnx",
+                "reward": 151.64011604144392,
+                "creation_time": 1731010994.7220902,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-359996.pt"
+                ]
+            },
+            {
+                "steps": 369987,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-369987.onnx",
+                "reward": 154.57410730351123,
+                "creation_time": 1731011014.6886735,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-369987.pt"
+                ]
+            },
+            {
+                "steps": 379993,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-379993.onnx",
+                "reward": 157.7470041992174,
+                "creation_time": 1731011034.4981728,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-379993.pt"
+                ]
+            },
+            {
+                "steps": 389994,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-389994.onnx",
+                "reward": 156.19487301130835,
+                "creation_time": 1731011054.6796563,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-389994.pt"
+                ]
+            },
+            {
+                "steps": 399992,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-399992.onnx",
+                "reward": 159.24301282374932,
+                "creation_time": 1731011075.2304704,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-399992.pt"
+                ]
+            },
+            {
+                "steps": 409995,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-409995.onnx",
+                "reward": 162.35606868508495,
+                "creation_time": 1731011096.6156456,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-409995.pt"
+                ]
+            },
+            {
+                "steps": 419992,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-419992.onnx",
+                "reward": 163.20709992267658,
+                "creation_time": 1731011117.8867152,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-419992.pt"
+                ]
+            },
+            {
+                "steps": 429999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-429999.onnx",
+                "reward": 165.1470022082241,
+                "creation_time": 1731011139.3675215,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-429999.pt"
+                ]
+            },
+            {
+                "steps": 439998,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-439998.onnx",
+                "reward": 166.3187161034961,
+                "creation_time": 1731011160.8610723,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-439998.pt"
+                ]
+            },
+            {
+                "steps": 449990,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-449990.onnx",
+                "reward": 166.70921186527735,
+                "creation_time": 1731011183.2059042,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-449990.pt"
+                ]
+            },
+            {
+                "steps": 459997,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-459997.onnx",
+                "reward": 167.83422773735398,
+                "creation_time": 1731011205.229138,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-459997.pt"
+                ]
+            },
+            {
+                "steps": 469999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-469999.onnx",
+                "reward": 168.32026984888833,
+                "creation_time": 1731011226.9969041,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-469999.pt"
+                ]
+            },
+            {
+                "steps": 479999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-479999.onnx",
+                "reward": 170.82426441571002,
+                "creation_time": 1731011250.7830102,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-479999.pt"
+                ]
+            },
+            {
+                "steps": 489994,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-489994.onnx",
+                "reward": 171.2222123319613,
+                "creation_time": 1731011274.5879378,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-489994.pt"
+                ]
+            },
+            {
+                "steps": 499994,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-499994.onnx",
+                "reward": 171.37269872474553,
+                "creation_time": 1731011298.8209717,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-499994.pt"
+                ]
+            },
+            {
+                "steps": 509997,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-509997.onnx",
+                "reward": 173.2987347930225,
+                "creation_time": 1731011323.015795,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-509997.pt"
+                ]
+            },
+            {
+                "steps": 519996,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-519996.onnx",
+                "reward": 172.73781992400836,
+                "creation_time": 1731011346.4293318,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-519996.pt"
+                ]
+            },
+            {
+                "steps": 529998,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-529998.onnx",
+                "reward": 173.16375285651566,
+                "creation_time": 1731011370.9460793,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-529998.pt"
+                ]
+            },
+            {
+                "steps": 539999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-539999.onnx",
+                "reward": 174.13509814475202,
+                "creation_time": 1731011394.4554763,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-539999.pt"
+                ]
+            },
+            {
+                "steps": 549998,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-549998.onnx",
+                "reward": 174.71290403676008,
+                "creation_time": 1731011419.0711687,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-549998.pt"
+                ]
+            },
+            {
+                "steps": 559993,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-559993.onnx",
+                "reward": 174.14489480723506,
+                "creation_time": 1731011443.619643,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-559993.pt"
+                ]
+            },
+            {
+                "steps": 569998,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-569998.onnx",
+                "reward": 175.27227629148044,
+                "creation_time": 1731011469.0719275,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-569998.pt"
+                ]
+            },
+            {
+                "steps": 579998,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-579998.onnx",
+                "reward": 175.84686212763773,
+                "creation_time": 1731011495.0233877,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-579998.pt"
+                ]
+            },
+            {
+                "steps": 589998,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-589998.onnx",
+                "reward": 175.76929339493302,
+                "creation_time": 1731011520.220372,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-589998.pt"
+                ]
+            },
+            {
+                "steps": 599999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-599999.onnx",
+                "reward": 176.4150362428565,
+                "creation_time": 1731011545.9286594,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-599999.pt"
+                ]
+            },
+            {
+                "steps": 609995,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-609995.onnx",
+                "reward": 176.40878015738343,
+                "creation_time": 1731011571.2878308,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-609995.pt"
+                ]
+            },
+            {
+                "steps": 619995,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-619995.onnx",
+                "reward": 176.73094101933236,
+                "creation_time": 1731011596.665923,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-619995.pt"
+                ]
+            },
+            {
+                "steps": 629992,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-629992.onnx",
+                "reward": 177.15485730784954,
+                "creation_time": 1731011622.9317584,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-629992.pt"
+                ]
+            },
+            {
+                "steps": 639997,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-639997.onnx",
+                "reward": 177.00378311751132,
+                "creation_time": 1731011647.9402397,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-639997.pt"
+                ]
+            },
+            {
+                "steps": 649998,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-649998.onnx",
+                "reward": 177.1266451913213,
+                "creation_time": 1731011672.8929875,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-649998.pt"
+                ]
+            },
+            {
+                "steps": 659999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-659999.onnx",
+                "reward": 177.73616005305746,
+                "creation_time": 1731011698.2495296,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-659999.pt"
+                ]
+            },
+            {
+                "steps": 669999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-669999.onnx",
+                "reward": 177.43374818166097,
+                "creation_time": 1731011724.242473,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-669999.pt"
+                ]
+            },
+            {
+                "steps": 679995,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-679995.onnx",
+                "reward": 178.40042857469166,
+                "creation_time": 1731011750.2195804,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-679995.pt"
+                ]
+            },
+            {
+                "steps": 689992,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-689992.onnx",
+                "reward": 179.0379348001707,
+                "creation_time": 1731011776.3342633,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-689992.pt"
+                ]
+            },
+            {
+                "steps": 699999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-699999.onnx",
+                "reward": 178.5578779410336,
+                "creation_time": 1731011803.6379948,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-699999.pt"
+                ]
+            },
+            {
+                "steps": 709997,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-709997.onnx",
+                "reward": 178.63410190676444,
+                "creation_time": 1731011829.1330886,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-709997.pt"
+                ]
+            },
+            {
+                "steps": 719998,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-719998.onnx",
+                "reward": 178.990048840724,
+                "creation_time": 1731011854.932442,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-719998.pt"
+                ]
+            },
+            {
+                "steps": 729997,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-729997.onnx",
+                "reward": 179.05386929276656,
+                "creation_time": 1731011881.750218,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-729997.pt"
+                ]
+            },
+            {
+                "steps": 739991,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-739991.onnx",
+                "reward": 178.9940303251284,
+                "creation_time": 1731011908.7704587,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-739991.pt"
+                ]
+            },
+            {
+                "steps": 749998,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-749998.onnx",
+                "reward": 179.27825093992482,
+                "creation_time": 1731011936.1351025,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-749998.pt"
+                ]
+            },
+            {
+                "steps": 759997,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-759997.onnx",
+                "reward": 178.89995676301064,
+                "creation_time": 1731011963.1674147,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-759997.pt"
+                ]
+            },
+            {
+                "steps": 769998,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-769998.onnx",
+                "reward": 179.6154285963231,
+                "creation_time": 1731011990.921914,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-769998.pt"
+                ]
+            },
+            {
+                "steps": 779999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-779999.onnx",
+                "reward": 179.2414407405134,
+                "creation_time": 1731012018.239968,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-779999.pt"
+                ]
+            },
+            {
+                "steps": 789999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-789999.onnx",
+                "reward": 179.41116329225778,
+                "creation_time": 1731012045.1323338,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-789999.pt"
+                ]
+            },
+            {
+                "steps": 799996,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-799996.onnx",
+                "reward": 179.85129694045642,
+                "creation_time": 1731012072.4801488,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-799996.pt"
+                ]
+            },
+            {
+                "steps": 809996,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-809996.onnx",
+                "reward": 180.04369090160048,
+                "creation_time": 1731012100.4395568,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-809996.pt"
+                ]
+            },
+            {
+                "steps": 819999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-819999.onnx",
+                "reward": 179.9748203923152,
+                "creation_time": 1731012127.4653091,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-819999.pt"
+                ]
+            },
+            {
+                "steps": 829995,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-829995.onnx",
+                "reward": 179.80335778280795,
+                "creation_time": 1731012155.5718827,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-829995.pt"
+                ]
+            },
+            {
+                "steps": 839997,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-839997.onnx",
+                "reward": 180.61143456594357,
+                "creation_time": 1731012182.5336952,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-839997.pt"
+                ]
+            },
+            {
+                "steps": 849999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-849999.onnx",
+                "reward": 180.41133872408054,
+                "creation_time": 1731012210.3714561,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-849999.pt"
+                ]
+            },
+            {
+                "steps": 859995,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-859995.onnx",
+                "reward": 180.20718196704627,
+                "creation_time": 1731012237.3583848,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-859995.pt"
+                ]
+            },
+            {
+                "steps": 869997,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-869997.onnx",
+                "reward": 180.0359355400695,
+                "creation_time": 1731012265.063173,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-869997.pt"
+                ]
+            },
+            {
+                "steps": 879999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-879999.onnx",
+                "reward": 180.18054745410262,
+                "creation_time": 1731012292.3065486,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-879999.pt"
+                ]
+            },
+            {
+                "steps": 889999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-889999.onnx",
+                "reward": 180.2859962711624,
+                "creation_time": 1731012320.5575216,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-889999.pt"
+                ]
+            },
+            {
+                "steps": 899997,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-899997.onnx",
+                "reward": 181.2408238301654,
+                "creation_time": 1731012348.0958192,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-899997.pt"
+                ]
+            },
+            {
+                "steps": 909996,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-909996.onnx",
+                "reward": 180.63645796164488,
+                "creation_time": 1731012375.1949315,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-909996.pt"
+                ]
+            },
+            {
+                "steps": 919996,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-919996.onnx",
+                "reward": 180.94791834907068,
+                "creation_time": 1731012403.440537,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-919996.pt"
+                ]
+            },
+            {
+                "steps": 929998,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-929998.onnx",
+                "reward": 180.85643032480618,
+                "creation_time": 1731012430.3806243,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-929998.pt"
+                ]
+            },
+            {
+                "steps": 939999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-939999.onnx",
+                "reward": 180.7492863596702,
+                "creation_time": 1731012458.4361339,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-939999.pt"
+                ]
+            },
+            {
+                "steps": 949995,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-949995.onnx",
+                "reward": 180.90499406493728,
+                "creation_time": 1731012486.6155555,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-949995.pt"
+                ]
+            },
+            {
+                "steps": 959999,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-959999.onnx",
+                "reward": 180.73095766865893,
+                "creation_time": 1731012515.5211031,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-959999.pt"
+                ]
+            },
+            {
+                "steps": 969998,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-969998.onnx",
+                "reward": 180.7376807499542,
+                "creation_time": 1731012542.1419795,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-969998.pt"
+                ]
+            },
+            {
+                "steps": 979998,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-979998.onnx",
+                "reward": 180.6708977023335,
+                "creation_time": 1731012569.4936059,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-979998.pt"
+                ]
+            },
+            {
+                "steps": 989997,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-989997.onnx",
+                "reward": 181.03042505326846,
+                "creation_time": 1731012598.103795,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-989997.pt"
+                ]
+            },
+            {
+                "steps": 999993,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-999993.onnx",
+                "reward": 180.64233418911402,
+                "creation_time": 1731012625.0000463,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-999993.pt"
+                ]
+            },
+            {
+                "steps": 1000005,
+                "file_path": "results/Manipulator4Run3/Manipulator/Manipulator-1000005.onnx",
+                "reward": 180.64118410015598,
+                "creation_time": 1731012625.0529544,
+                "auxillary_file_paths": [
+                    "results/Manipulator4Run3/Manipulator/Manipulator-1000005.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000005,
+            "file_path": "results/Manipulator4Run3/Manipulator.onnx",
+            "reward": 180.64118410015598,
+            "creation_time": 1731012625.0529544,
+            "auxillary_file_paths": [
+                "results/Manipulator4Run3/Manipulator/Manipulator-1000005.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.5.1+cu124"
+    }
+}

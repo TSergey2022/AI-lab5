@@ -16,6 +16,10 @@ public class ManipulatorAgent : Agent
     public float targetCenterOffset = 0;
     public bool drawTargetGizmos = false;
     private JointController[] joints;
+
+    // Расстояние для достижения цели
+    public float targetReachThreshold = 0.4f;
+
     public override void Initialize()
     {
         joints = GetComponentsInChildren<JointController>();
@@ -29,40 +33,96 @@ public class ManipulatorAgent : Agent
         continuousActionsOut[2] = -Input.GetAxis("Mouse X");
         continuousActionsOut[3] = Input.GetAxis("Mouse Y");
     }
+
     public override void OnActionReceived(ActionBuffers actionBuffers)
     {
+        // Применяем действия к каждому суставу щупальца
         for (var i = 0; i < joints.Length; i++)
+        {
             joints[i].Rotate(actionBuffers.ContinuousActions[i] * 5f);
-        var newDist = (head.transform.position - target.transform.position).magnitude;
-        if (newDist < 0.4f)
+        }
+
+        // Вычисляем расстояние до цели
+        float distanceToTarget = Vector3.Distance(head.position, target.position);
+
+        // Если щупальце достигает цели, завершаем эпизод и даем вознаграждение
+        if (distanceToTarget < targetReachThreshold)
+        {
+            SetReward(MaxStep - StepCount);
             EndEpisode();
-    }
-    public override void CollectObservations(VectorSensor sensor)
-    {
-    }
-    public override void OnEpisodeBegin()
-    {
-        target.transform.position = randomTargetPosititon();
+        }
+        else
+        {
+            // Меньшее вознаграждение, если цель не достигнута, но агент приближается
+            SetReward(-StepCount / (float)MaxStep);
+        }
     }
 
-    private Vector3 randomTargetPosititon()
+
+    public override void CollectObservations(VectorSensor sensor)
+    {
+        // Наблюдения для агентского обучения
+        // 1. Положение цели (относительно щупальца)
+        sensor.AddObservation((target.position - head.position) + new Vector3(
+            Random.Range(-0.1f, 0.1f),
+            Random.Range(-0.1f, 0.1f),
+            Random.Range(-0.1f, 0.1f)
+        ));
+
+        // 2. Положение и ориентация самого щупальца
+        sensor.AddObservation(head.position);
+        sensor.AddObservation(head.rotation);
+
+        // 3. Состояние каждого из суставов щупальца
+        foreach (var joint in joints)
+        {
+            sensor.AddObservation(joint.transform.localRotation);
+        }
+    }
+
+    /*
+    public override void CollectObservations(VectorSensor sensor)
+    {
+        // Добавляем относительное положение цели (3 наблюдения)
+        sensor.AddObservation(target.position - head.position);
+    }
+    */
+
+    public override void OnEpisodeBegin()
+    {
+        // Перемещаем цель на случайную позицию
+        target.position = randomTargetPosition();
+
+        // Сбрасываем положение щупальца в начальную позицию
+        foreach (var joint in joints)
+        {
+            joint.SetRotation(0);
+        }
+    }
+
+    private Vector3 randomTargetPosition()
     {
         var point = Random.insideUnitSphere;
         point.Scale(targetSpawnScale);
         point += targetSpawnCenter;
+
         var vec2 = new Vector2(point.x, point.z);
-        if  (vec2.magnitude < targetCenterOffset) {
-            return randomTargetPosititon();
+        if (vec2.magnitude < targetCenterOffset)
+        {
+            return randomTargetPosition();
         }
+
         return transform.position + point;
     }
+
     public void OnDrawGizmosSelected()
     {
         if (!drawTargetGizmos) return;
-        Gizmos.color = new Color(1, 0, 0, 0.75F);
+
+        Gizmos.color = new Color(1, 0, 0, 0.75f);
         for (var i = 0; i < 100; i++)
         {
-            Gizmos.DrawWireSphere(randomTargetPosititon(), 0.1f);
+            Gizmos.DrawWireSphere(randomTargetPosition(), 0.1f);
         }
     }
 }
